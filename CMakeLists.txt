@@ -1,0 +1,2 @@
+add_executable(imu_subscriber imu_subscriber.cpp)
+target_link_libraries(imu_subscriber unitree_sdk2)
